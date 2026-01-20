@@ -1,0 +1,8 @@
+name: text2struct-dssp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - jsonschema
+  - dssp

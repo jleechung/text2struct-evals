@@ -1,0 +1,21 @@
+name: text2struct-thermompnn
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - pandas
+  - jsonschema
+  - numpy
+  - tqdm
+  - omegaconf
+  - joblib
+  - biopython
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - pytorch-lightning
+  - wandb

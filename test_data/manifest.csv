@@ -1,0 +1,13 @@
+text_description,structure_path,accession,sample_num
+"Design a protein","/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_5fo5_A_n_88/sample_0.pdb","5fo5_A","0"
+"Design a protein","/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_5fo5_A_n_88/sample_1.pdb","5fo5_A","1"
+"Design a protein","/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_5fo5_A_n_88/sample_2.pdb","5fo5_A","2"
+"Design a protein","/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_5fo5_A_n_88/sample_3.pdb","5fo5_A","3"
+"Design a protein","/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_5fo5_A_n_88/sample_4.pdb","5fo5_A","4"
+"Design a protein","/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_5fo5_A_n_88/sample_5.pdb","5fo5_A","5"
+"Design a protein","/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_3nwb_A_n_213/sample_0.pdb","3nwb_A","0"
+"Design a protein","/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_3nwb_A_n_213/sample_1.pdb","3nwb_A","1"
+"Design a protein","/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_3nwb_A_n_213/sample_2.pdb","3nwb_A","2"
+"Design a protein","/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_3nwb_A_n_213/sample_3.pdb","3nwb_A","3"
+"Design a protein","/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_3nwb_A_n_213/sample_4.pdb","3nwb_A","4"
+"Design a protein","/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_3nwb_A_n_213/sample_5.pdb","3nwb_A","5"

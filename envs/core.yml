@@ -1,0 +1,7 @@
+name: text2struct-core
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - jsonschema

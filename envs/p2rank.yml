@@ -1,0 +1,8 @@
+name: text2struct-p2rank
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - jsonschema
+  - openjdk=17
