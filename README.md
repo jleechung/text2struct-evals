@@ -67,7 +67,7 @@ One json per structure sample (usually we have multiple structures generated per
 bash scripts/eval-dssp.sh
 ```
 
-
+See [here](https://github.com/jleechung/text2struct-evals/blob/main/results/testrun/dssp/5fo5_A/sample_0.json) for example output for one structure.
 
 ### P2Rank
 
@@ -75,11 +75,15 @@ bash scripts/eval-dssp.sh
 bash scripts/eval-p2rank.sh
 ```
 
+See [here](https://github.com/jleechung/text2struct-evals/blob/main/results/testrun/p2rank/5fo5_A/sample_0.json) for example output for one structure.
+
 ### GearNet / Proteina
 
 ```bash
 bash scripts/eval-gearnet.sh
 ```
+
+See [here](https://github.com/jleechung/text2struct-evals/blob/main/results/testrun/gearnet/5fo5_A/sample_0.json) for example output for one structure.
 
 ### ThermoMPNN
 
@@ -87,11 +91,15 @@ bash scripts/eval-gearnet.sh
 bash scripts/eval-thermompnn.sh
 ```
 
+See [here](https://github.com/jleechung/text2struct-evals/blob/main/results/testrun/thermompnn/5fo5_A/sample_0.json) for example output for one structure.
+
 ### CLEAN
 
 ```bash
 bash scripts/eval-clean.sh
 ```
+
+See [here](https://github.com/jleechung/text2struct-evals/blob/main/results/testrun/clean/5fo5_A/sample_0.json) for example output for one structure.
 
 ## To-dos
 
