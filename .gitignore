@@ -6,7 +6,16 @@ __pycache__/
 .env
 .venv
 .DS_Store
+
 results/
+
+# --- allow tracking example result JSONs ---
+!results/**/
+!results/**/sample_0.json
+results/**/*
+!results/**/sample_0.json
+
 logs/
 eval-*/temp/
 eval-*/vendor/
+eval-*/cache

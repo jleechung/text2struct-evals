@@ -1,0 +1,41 @@
+{
+  "structure_id": "5fo5_A_structure_00",
+  "structure_path": "/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_5fo5_A_n_88/sample_0.pdb",
+  "accession": "5fo5_A",
+  "sample_num": 0,
+  "eval_type": "clean",
+  "status": "success",
+  "error": null,
+  "predictions": {
+    "chain_policy": "longest",
+    "explicit_chain": null,
+    "num_query_chains": 1,
+    "chains": [
+      {
+        "query_id": "5fo5_A_structure_00",
+        "chain_id": "A",
+        "sequence_length": 88,
+        "sequence_truncated": false,
+        "original_length": 88,
+        "ec_topk": [
+          {
+            "ec": "4.6.1.1",
+            "maxsep": 8.1674
+          },
+          {
+            "ec": "3.1.21.4",
+            "maxsep": 8.0967
+          }
+        ],
+        "top_ec": "4.6.1.1",
+        "top_maxsep": 8.1674
+      }
+    ],
+    "had_any_prediction": true
+  },
+  "raw_output_path": "/gscratch/h2lab/jxlee/text2struct-evals/results/testrun/clean/5fo5_A/sample_0.clean",
+  "timestamp": "2026-01-21T22:09:23.947322+00:00",
+  "runtime_seconds": 13.233779583737487,
+  "tool": "/mmfs1/gscratch/h2lab/jxlee/text2struct-evals/eval-clean/vendor/CLEAN/CLEAN_infer_fasta.py",
+  "batch_fasta_data": "t2s_testrun_b0001_7a339f77dc"
+}

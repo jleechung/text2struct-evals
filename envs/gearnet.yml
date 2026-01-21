@@ -1,0 +1,23 @@
+name: text2struct-gearnet
+channels:
+  - nvidia
+  - pytorch
+  - pyg
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - jsonschema
+  - numpy
+  - tqdm
+  - biopython
+  - pytorch
+  - pytorch-cuda=12.1
+  - pyg
+  - pytorch-scatter
+  - pytorch-cluster
+  - pip
+  - pip:
+    - torchdrug
+    - graphein
+    - dm-tree

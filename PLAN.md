@@ -49,9 +49,11 @@ Build a scalable evaluation pipeline for text-conditioned protein structure gene
 ### Design Principles
 
 1. **Modularity**
-   - Each evaluation lives in its own module directory: `eval-<name>/`
-   - Each module has its own conda environment (separate, reproducible)
+   - Code for running each evaluation lives in its own module directory: `eval-<tool_name>/`
+   - Each module has its own conda environment (separate, reproducible) stored in `envs/<tool_name>.yml`
    - Modules share a small `utils/` library and a common output schema
+   - Results are written to `<run_name>/<tool_name>`
+   - Logs are written to `<run_name>/<tool_name>`
 
 2. **Consistency**
    - Standard CLI: `--manifest`, `--run_name`, `--output_root`, `--log_root`, `--batch_size`
@@ -115,7 +117,6 @@ $BASE_PATH/text2struct-evals/
 │   ├── batch_utils.py               # batching
 │   └── schema.py                    # JSON schema validation
 ├── eval-dssp/
-│   ├── environment.yml              # optional: copy of envs/dssp.yml for convenience
 │   ├── run_dssp.py
 │   └── temp/
 ├── eval-p2rank/
@@ -173,6 +174,10 @@ Tool-specific flags are allowed (e.g. `--mkdssp_bin`, `--gpu_id`, etc.).
 **Import convention**: eval runners must be able to import `utils/` reliably on the cluster.
 
 * Recommended: in each runner, add repo root to `sys.path` using `Path(__file__).resolve().parents[1]`.
+
+### Setup Scripts
+
+For setting up a tool, shell scrpt per tool `scripts/setup-<tool_name>.sh`. Includes setting up a conda environment, cloning or downloading repositories if required.
 
 ### Shell Scripts (testing)
 

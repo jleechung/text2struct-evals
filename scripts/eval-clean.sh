@@ -2,15 +2,16 @@
 set -euo pipefail
 
 # Configuration
-ENV_NAME="text2struct-thermompnn"
+ENV_NAME="text2struct-clean"
 RUN_NAME="testrun"
 MANIFEST="test_data/manifest.csv"
 BATCH_SIZE=8
 OVERWRITE=true  # true|false
 
-# ThermoMPNN knobs (not setup-determined)
-CHAIN=""   # e.g. "A" or leave "" to infer
-TOP_K=10
+# CLEAN knobs (not setup-determined)
+MAX_EC=10
+CHAIN_POLICY="longest"  # longest|first|all
+MAX_LEN=1022
 
 # Execution
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -30,23 +31,22 @@ if [[ -f "$REPO_ROOT/$MANIFEST" ]]; then
   MANIFEST="$REPO_ROOT/$MANIFEST"
 fi
 
-# setup-thermompnn.sh installs here
-THERMOMPNN_DIR="$REPO_ROOT/eval-thermompnn/vendor/ThermoMPNN"
+# setup-clean.sh installs here
+CLEAN_DIR="$REPO_ROOT/eval-clean/vendor/CLEAN"
 
 extra=()
 if [[ "$OVERWRITE" == "true" ]]; then
   extra+=(--overwrite)
 fi
-if [[ -n "$CHAIN" ]]; then
-  extra+=(--chain "$CHAIN")
-fi
 
-python eval-thermompnn/run_thermompnn.py \
+python eval-clean/run_clean.py \
   --manifest "$MANIFEST" \
   --run_name "$RUN_NAME" \
   --output_root "$REPO_ROOT/results" \
   --log_root "$REPO_ROOT/logs" \
   --batch_size "$BATCH_SIZE" \
-  --thermompnn_dir "$THERMOMPNN_DIR" \
-  --top_k "$TOP_K" \
+  --clean_dir "$CLEAN_DIR" \
+  --max_ec "$MAX_EC" \
+  --chain_policy "$CHAIN_POLICY" \
+  --max_len "$MAX_LEN" \
   "${extra[@]}"

@@ -1,0 +1,1997 @@
+{
+  "structure_id": "3nwb_A_structure_00",
+  "structure_path": "/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_3nwb_A_n_213/sample_0.pdb",
+  "accession": "3nwb_A",
+  "sample_num": 0,
+  "eval_type": "dssp",
+  "status": "success",
+  "error": null,
+  "predictions": {
+    "secondary_structure": "CHHHHHHHHHHHCCCCHHHHHHHHHHHHHHSCCCTTCEEEEETCTTSHHHHHHHHHHCCEEEEECCCGGGHHHHTTTSPTTCEEEEEEESTTHIIIIISCCCHHHHHHHHHHHHHHHHHHEEEEEEEEEEEEEESSCCTTCTTSPBHHHHHHHHHHHHHHTTEEEEEEEEEEPPHHHHHHHHHHHHHTTCHHHHHHHHTTCEEEEEEEEEECC",
+    "counts": {
+      "C": 26,
+      "H": 93,
+      "S": 8,
+      "T": 22,
+      "E": 51,
+      "G": 3,
+      "P": 4,
+      "I": 5,
+      "B": 1
+    },
+    "residues": [
+      {
+        "dssp_index": 1,
+        "resseq": "1",
+        "icode": null,
+        "chain": "A",
+        "aa": "N",
+        "ss": "C",
+        "acc": 120
+      },
+      {
+        "dssp_index": 2,
+        "resseq": "2",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "H",
+        "acc": 100
+      },
+      {
+        "dssp_index": 3,
+        "resseq": "3",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 89
+      },
+      {
+        "dssp_index": 4,
+        "resseq": "4",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 132
+      },
+      {
+        "dssp_index": 5,
+        "resseq": "5",
+        "icode": null,
+        "chain": "A",
+        "aa": "I",
+        "ss": "H",
+        "acc": 53
+      },
+      {
+        "dssp_index": 6,
+        "resseq": "6",
+        "icode": null,
+        "chain": "A",
+        "aa": "F",
+        "ss": "H",
+        "acc": 8
+      },
+      {
+        "dssp_index": 7,
+        "resseq": "7",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 106
+      },
+      {
+        "dssp_index": 8,
+        "resseq": "8",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 45
+      },
+      {
+        "dssp_index": 9,
+        "resseq": "9",
+        "icode": null,
+        "chain": "A",
+        "aa": "Y",
+        "ss": "H",
+        "acc": 0
+      },
+      {
+        "dssp_index": 10,
+        "resseq": "10",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "H",
+        "acc": 33
+      },
+      {
+        "dssp_index": 11,
+        "resseq": "11",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "H",
+        "acc": 137
+      },
+      {
+        "dssp_index": 12,
+        "resseq": "12",
+        "icode": null,
+        "chain": "A",
+        "aa": "R",
+        "ss": "H",
+        "acc": 115
+      },
+      {
+        "dssp_index": 13,
+        "resseq": "13",
+        "icode": null,
+        "chain": "A",
+        "aa": "Y",
+        "ss": "C",
+        "acc": 1
+      },
+      {
+        "dssp_index": 14,
+        "resseq": "14",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "C",
+        "acc": 103
+      },
+      {
+        "dssp_index": 15,
+        "resseq": "15",
+        "icode": null,
+        "chain": "A",
+        "aa": "Y",
+        "ss": "C",
+        "acc": 8
+      },
+      {
+        "dssp_index": 16,
+        "resseq": "16",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "C",
+        "acc": 8
+      },
+      {
+        "dssp_index": 17,
+        "resseq": "17",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "H",
+        "acc": 90
+      },
+      {
+        "dssp_index": 18,
+        "resseq": "18",
+        "icode": null,
+        "chain": "A",
+        "aa": "S",
+        "ss": "H",
+        "acc": 18
+      },
+      {
+        "dssp_index": 19,
+        "resseq": "19",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "H",
+        "acc": 0
+      },
+      {
+        "dssp_index": 20,
+        "resseq": "20",
+        "icode": null,
+        "chain": "A",
+        "aa": "I",
+        "ss": "H",
+        "acc": 25
+      },
+      {
+        "dssp_index": 21,
+        "resseq": "21",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 117
+      },
+      {
+        "dssp_index": 22,
+        "resseq": "22",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "H",
+        "acc": 32
+      },
+      {
+        "dssp_index": 23,
+        "resseq": "23",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "H",
+        "acc": 0
+      },
+      {
+        "dssp_index": 24,
+        "resseq": "24",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "H",
+        "acc": 16
+      },
+      {
+        "dssp_index": 25,
+        "resseq": "25",
+        "icode": null,
+        "chain": "A",
+        "aa": "N",
+        "ss": "H",
+        "acc": 79
+      },
+      {
+        "dssp_index": 26,
+        "resseq": "26",
+        "icode": null,
+        "chain": "A",
+        "aa": "F",
+        "ss": "H",
+        "acc": 8
+      },
+      {
+        "dssp_index": 27,
+        "resseq": "27",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "H",
+        "acc": 2
+      },
+      {
+        "dssp_index": 28,
+        "resseq": "28",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 78
+      },
+      {
+        "dssp_index": 29,
+        "resseq": "29",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "H",
+        "acc": 148
+      },
+      {
+        "dssp_index": 30,
+        "resseq": "30",
+        "icode": null,
+        "chain": "A",
+        "aa": "H",
+        "ss": "H",
+        "acc": 39
+      },
+      {
+        "dssp_index": 31,
+        "resseq": "31",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "S",
+        "acc": 8
+      },
+      {
+        "dssp_index": 32,
+        "resseq": "32",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "C",
+        "acc": 72
+      },
+      {
+        "dssp_index": 33,
+        "resseq": "33",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "C",
+        "acc": 27
+      },
+      {
+        "dssp_index": 34,
+        "resseq": "34",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "C",
+        "acc": 130
+      },
+      {
+        "dssp_index": 35,
+        "resseq": "35",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "T",
+        "acc": 106
+      },
+      {
+        "dssp_index": 36,
+        "resseq": "36",
+        "icode": null,
+        "chain": "A",
+        "aa": "G",
+        "ss": "T",
+        "acc": 51
+      },
+      {
+        "dssp_index": 37,
+        "resseq": "37",
+        "icode": null,
+        "chain": "A",
+        "aa": "M",
+        "ss": "C",
+        "acc": 20
+      },
+      {
+        "dssp_index": 38,
+        "resseq": "38",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "E",
+        "acc": 71
+      },
+      {
+        "dssp_index": 39,
+        "resseq": "39",
+        "icode": null,
+        "chain": "A",
+        "aa": "V",
+        "ss": "E",
+        "acc": 1
+      },
+      {
+        "dssp_index": 40,
+        "resseq": "40",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "E",
+        "acc": 0
+      },
+      {
+        "dssp_index": 41,
+        "resseq": "41",
+        "icode": null,
+        "chain": "A",
+        "aa": "D",
+        "ss": "E",
+        "acc": 0
+      },
+      {
+        "dssp_index": 42,
+        "resseq": "42",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "E",
+        "acc": 4
+      },
+      {
+        "dssp_index": 43,
+        "resseq": "43",
+        "icode": null,
+        "chain": "A",
+        "aa": "G",
+        "ss": "T",
+        "acc": 4
+      },
+      {
+        "dssp_index": 44,
+        "resseq": "44",
+        "icode": null,
+        "chain": "A",
+        "aa": "A",
+        "ss": "C",
+        "acc": 0
+      },
+      {
+        "dssp_index": 45,
+        "resseq": "45",
+        "icode": null,
+        "chain": "A",
+        "aa": "G",
+        "ss": "T",
+        "acc": 10
+      },
+      {
+        "dssp_index": 46,
+        "resseq": "46",
+        "icode": null,
+        "chain": "A",
+        "aa": "R",
+        "ss": "T",
+        "acc": 85
+      },
+      {
+        "dssp_index": 47,
+        "resseq": "47",
+        "icode": null,
+        "chain": "A",
+        "aa": "G",
+        "ss": "S",
+        "acc": 9
+      },
+      {
+        "dssp_index": 48,
+        "resseq": "48",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 63
+      },
+      {
+        "dssp_index": 49,
+        "resseq": "49",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "H",
+        "acc": 1
+      },
+      {
+        "dssp_index": 50,
+        "resseq": "50",
+        "icode": null,
+        "chain": "A",
+        "aa": "G",
+        "ss": "H",
+        "acc": 4
+      },
+      {
+        "dssp_index": 51,
+        "resseq": "51",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "H",
+        "acc": 133
+      },
+      {
+        "dssp_index": 52,
+        "resseq": "52",
+        "icode": null,
+        "chain": "A",
+        "aa": "A",
+        "ss": "H",
+        "acc": 21
+      },
+      {
+        "dssp_index": 53,
+        "resseq": "53",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "H",
+        "acc": 1
+      },
+      {
+        "dssp_index": 54,
+        "resseq": "54",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "H",
+        "acc": 122
+      },
+      {
+        "dssp_index": 55,
+        "resseq": "55",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 176
+      },
+      {
+        "dssp_index": 56,
+        "resseq": "56",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "H",
+        "acc": 107
+      },
+      {
+        "dssp_index": 57,
+        "resseq": "57",
+        "icode": null,
+        "chain": "A",
+        "aa": "F",
+        "ss": "H",
+        "acc": 34
+      },
+      {
+        "dssp_index": 58,
+        "resseq": "58",
+        "icode": null,
+        "chain": "A",
+        "aa": "G",
+        "ss": "C",
+        "acc": 38
+      },
+      {
+        "dssp_index": 59,
+        "resseq": "59",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "C",
+        "acc": 2
+      },
+      {
+        "dssp_index": 60,
+        "resseq": "60",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "E",
+        "acc": 109
+      },
+      {
+        "dssp_index": 61,
+        "resseq": "61",
+        "icode": null,
+        "chain": "A",
+        "aa": "V",
+        "ss": "E",
+        "acc": 22
+      },
+      {
+        "dssp_index": 62,
+        "resseq": "62",
+        "icode": null,
+        "chain": "A",
+        "aa": "T",
+        "ss": "E",
+        "acc": 32
+      },
+      {
+        "dssp_index": 63,
+        "resseq": "63",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "E",
+        "acc": 74
+      },
+      {
+        "dssp_index": 64,
+        "resseq": "64",
+        "icode": null,
+        "chain": "A",
+        "aa": "V",
+        "ss": "E",
+        "acc": 11
+      },
+      {
+        "dssp_index": 65,
+        "resseq": "65",
+        "icode": null,
+        "chain": "A",
+        "aa": "T",
+        "ss": "C",
+        "acc": 45
+      },
+      {
+        "dssp_index": 66,
+        "resseq": "66",
+        "icode": null,
+        "chain": "A",
+        "aa": "C",
+        "ss": "C",
+        "acc": 9
+      },
+      {
+        "dssp_index": 67,
+        "resseq": "67",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "C",
+        "acc": 16
+      },
+      {
+        "dssp_index": 68,
+        "resseq": "68",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "G",
+        "acc": 2
+      },
+      {
+        "dssp_index": 69,
+        "resseq": "69",
+        "icode": null,
+        "chain": "A",
+        "aa": "S",
+        "ss": "G",
+        "acc": 60
+      },
+      {
+        "dssp_index": 70,
+        "resseq": "70",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "G",
+        "acc": 67
+      },
+      {
+        "dssp_index": 71,
+        "resseq": "71",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "H",
+        "acc": 3
+      },
+      {
+        "dssp_index": 72,
+        "resseq": "72",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "H",
+        "acc": 52
+      },
+      {
+        "dssp_index": 73,
+        "resseq": "73",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 123
+      },
+      {
+        "dssp_index": 74,
+        "resseq": "74",
+        "icode": null,
+        "chain": "A",
+        "aa": "V",
+        "ss": "H",
+        "acc": 68
+      },
+      {
+        "dssp_index": 75,
+        "resseq": "75",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "T",
+        "acc": 1
+      },
+      {
+        "dssp_index": 76,
+        "resseq": "76",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "T",
+        "acc": 129
+      },
+      {
+        "dssp_index": 77,
+        "resseq": "77",
+        "icode": null,
+        "chain": "A",
+        "aa": "D",
+        "ss": "T",
+        "acc": 139
+      },
+      {
+        "dssp_index": 78,
+        "resseq": "78",
+        "icode": null,
+        "chain": "A",
+        "aa": "Y",
+        "ss": "S",
+        "acc": 88
+      },
+      {
+        "dssp_index": 79,
+        "resseq": "79",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "P",
+        "acc": 87
+      },
+      {
+        "dssp_index": 80,
+        "resseq": "80",
+        "icode": null,
+        "chain": "A",
+        "aa": "D",
+        "ss": "T",
+        "acc": 110
+      },
+      {
+        "dssp_index": 81,
+        "resseq": "81",
+        "icode": null,
+        "chain": "A",
+        "aa": "Q",
+        "ss": "T",
+        "acc": 90
+      },
+      {
+        "dssp_index": 82,
+        "resseq": "82",
+        "icode": null,
+        "chain": "A",
+        "aa": "A",
+        "ss": "C",
+        "acc": 12
+      },
+      {
+        "dssp_index": 83,
+        "resseq": "83",
+        "icode": null,
+        "chain": "A",
+        "aa": "F",
+        "ss": "E",
+        "acc": 7
+      },
+      {
+        "dssp_index": 84,
+        "resseq": "84",
+        "icode": null,
+        "chain": "A",
+        "aa": "D",
+        "ss": "E",
+        "acc": 42
+      },
+      {
+        "dssp_index": 85,
+        "resseq": "85",
+        "icode": null,
+        "chain": "A",
+        "aa": "I",
+        "ss": "E",
+        "acc": 3
+      },
+      {
+        "dssp_index": 86,
+        "resseq": "86",
+        "icode": null,
+        "chain": "A",
+        "aa": "V",
+        "ss": "E",
+        "acc": 0
+      },
+      {
+        "dssp_index": 87,
+        "resseq": "87",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "E",
+        "acc": 3
+      },
+      {
+        "dssp_index": 88,
+        "resseq": "88",
+        "icode": null,
+        "chain": "A",
+        "aa": "A",
+        "ss": "E",
+        "acc": 0
+      },
+      {
+        "dssp_index": 89,
+        "resseq": "89",
+        "icode": null,
+        "chain": "A",
+        "aa": "T",
+        "ss": "E",
+        "acc": 2
+      },
+      {
+        "dssp_index": 90,
+        "resseq": "90",
+        "icode": null,
+        "chain": "A",
+        "aa": "D",
+        "ss": "S",
+        "acc": 0
+      },
+      {
+        "dssp_index": 91,
+        "resseq": "91",
+        "icode": null,
+        "chain": "A",
+        "aa": "V",
+        "ss": "T",
+        "acc": 4
+      },
+      {
+        "dssp_index": 92,
+        "resseq": "92",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "T",
+        "acc": 1
+      },
+      {
+        "dssp_index": 93,
+        "resseq": "93",
+        "icode": null,
+        "chain": "A",
+        "aa": "T",
+        "ss": "H",
+        "acc": 1
+      },
+      {
+        "dssp_index": 94,
+        "resseq": "94",
+        "icode": null,
+        "chain": "A",
+        "aa": "I",
+        "ss": "I",
+        "acc": 2
+      },
+      {
+        "dssp_index": 95,
+        "resseq": "95",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "I",
+        "acc": 1
+      },
+      {
+        "dssp_index": 96,
+        "resseq": "96",
+        "icode": null,
+        "chain": "A",
+        "aa": "Q",
+        "ss": "I",
+        "acc": 0
+      },
+      {
+        "dssp_index": 97,
+        "resseq": "97",
+        "icode": null,
+        "chain": "A",
+        "aa": "I",
+        "ss": "I",
+        "acc": 2
+      },
+      {
+        "dssp_index": 98,
+        "resseq": "98",
+        "icode": null,
+        "chain": "A",
+        "aa": "I",
+        "ss": "I",
+        "acc": 6
+      },
+      {
+        "dssp_index": 99,
+        "resseq": "99",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "S",
+        "acc": 11
+      },
+      {
+        "dssp_index": 100,
+        "resseq": "100",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "C",
+        "acc": 113
+      },
+      {
+        "dssp_index": 101,
+        "resseq": "101",
+        "icode": null,
+        "chain": "A",
+        "aa": "H",
+        "ss": "C",
+        "acc": 2
+      },
+      {
+        "dssp_index": 102,
+        "resseq": "102",
+        "icode": null,
+        "chain": "A",
+        "aa": "S",
+        "ss": "C",
+        "acc": 46
+      },
+      {
+        "dssp_index": 103,
+        "resseq": "103",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "H",
+        "acc": 69
+      },
+      {
+        "dssp_index": 104,
+        "resseq": "104",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 130
+      },
+      {
+        "dssp_index": 105,
+        "resseq": "105",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 79
+      },
+      {
+        "dssp_index": 106,
+        "resseq": "106",
+        "icode": null,
+        "chain": "A",
+        "aa": "F",
+        "ss": "H",
+        "acc": 2
+      },
+      {
+        "dssp_index": 107,
+        "resseq": "107",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 65
+      },
+      {
+        "dssp_index": 108,
+        "resseq": "108",
+        "icode": null,
+        "chain": "A",
+        "aa": "Q",
+        "ss": "H",
+        "acc": 108
+      },
+      {
+        "dssp_index": 109,
+        "resseq": "109",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 25
+      },
+      {
+        "dssp_index": 110,
+        "resseq": "110",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "H",
+        "acc": 1
+      },
+      {
+        "dssp_index": 111,
+        "resseq": "111",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 46
+      },
+      {
+        "dssp_index": 112,
+        "resseq": "112",
+        "icode": null,
+        "chain": "A",
+        "aa": "T",
+        "ss": "H",
+        "acc": 20
+      },
+      {
+        "dssp_index": 113,
+        "resseq": "113",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "H",
+        "acc": 3
+      },
+      {
+        "dssp_index": 114,
+        "resseq": "114",
+        "icode": null,
+        "chain": "A",
+        "aa": "F",
+        "ss": "H",
+        "acc": 1
+      },
+      {
+        "dssp_index": 115,
+        "resseq": "115",
+        "icode": null,
+        "chain": "A",
+        "aa": "R",
+        "ss": "H",
+        "acc": 93
+      },
+      {
+        "dssp_index": 116,
+        "resseq": "116",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 10
+      },
+      {
+        "dssp_index": 117,
+        "resseq": "117",
+        "icode": null,
+        "chain": "A",
+        "aa": "A",
+        "ss": "H",
+        "acc": 1
+      },
+      {
+        "dssp_index": 118,
+        "resseq": "118",
+        "icode": null,
+        "chain": "A",
+        "aa": "Y",
+        "ss": "H",
+        "acc": 66
+      },
+      {
+        "dssp_index": 119,
+        "resseq": "119",
+        "icode": null,
+        "chain": "A",
+        "aa": "R",
+        "ss": "H",
+        "acc": 53
+      },
+      {
+        "dssp_index": 120,
+        "resseq": "120",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "H",
+        "acc": 0
+      },
+      {
+        "dssp_index": 121,
+        "resseq": "121",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "E",
+        "acc": 1
+      },
+      {
+        "dssp_index": 122,
+        "resseq": "122",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "E",
+        "acc": 60
+      },
+      {
+        "dssp_index": 123,
+        "resseq": "123",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "E",
+        "acc": 48
+      },
+      {
+        "dssp_index": 124,
+        "resseq": "124",
+        "icode": null,
+        "chain": "A",
+        "aa": "G",
+        "ss": "E",
+        "acc": 25
+      },
+      {
+        "dssp_index": 125,
+        "resseq": "125",
+        "icode": null,
+        "chain": "A",
+        "aa": "G",
+        "ss": "E",
+        "acc": 7
+      },
+      {
+        "dssp_index": 126,
+        "resseq": "126",
+        "icode": null,
+        "chain": "A",
+        "aa": "Y",
+        "ss": "E",
+        "acc": 42
+      },
+      {
+        "dssp_index": 127,
+        "resseq": "127",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "E",
+        "acc": 3
+      },
+      {
+        "dssp_index": 128,
+        "resseq": "128",
+        "icode": null,
+        "chain": "A",
+        "aa": "F",
+        "ss": "E",
+        "acc": 2
+      },
+      {
+        "dssp_index": 129,
+        "resseq": "129",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "E",
+        "acc": 1
+      },
+      {
+        "dssp_index": 130,
+        "resseq": "130",
+        "icode": null,
+        "chain": "A",
+        "aa": "S",
+        "ss": "E",
+        "acc": 0
+      },
+      {
+        "dssp_index": 131,
+        "resseq": "131",
+        "icode": null,
+        "chain": "A",
+        "aa": "N",
+        "ss": "E",
+        "acc": 0
+      },
+      {
+        "dssp_index": 132,
+        "resseq": "132",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "E",
+        "acc": 4
+      },
+      {
+        "dssp_index": 133,
+        "resseq": "133",
+        "icode": null,
+        "chain": "A",
+        "aa": "V",
+        "ss": "E",
+        "acc": 1
+      },
+      {
+        "dssp_index": 134,
+        "resseq": "134",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "E",
+        "acc": 1
+      },
+      {
+        "dssp_index": 135,
+        "resseq": "135",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "S",
+        "acc": 83
+      },
+      {
+        "dssp_index": 136,
+        "resseq": "136",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "S",
+        "acc": 145
+      },
+      {
+        "dssp_index": 137,
+        "resseq": "137",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "C",
+        "acc": 98
+      },
+      {
+        "dssp_index": 138,
+        "resseq": "138",
+        "icode": null,
+        "chain": "A",
+        "aa": "D",
+        "ss": "C",
+        "acc": 11
+      },
+      {
+        "dssp_index": 139,
+        "resseq": "139",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "T",
+        "acc": 122
+      },
+      {
+        "dssp_index": 140,
+        "resseq": "140",
+        "icode": null,
+        "chain": "A",
+        "aa": "R",
+        "ss": "T",
+        "acc": 89
+      },
+      {
+        "dssp_index": 141,
+        "resseq": "141",
+        "icode": null,
+        "chain": "A",
+        "aa": "V",
+        "ss": "C",
+        "acc": 1
+      },
+      {
+        "dssp_index": 142,
+        "resseq": "142",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "T",
+        "acc": 92
+      },
+      {
+        "dssp_index": 143,
+        "resseq": "143",
+        "icode": null,
+        "chain": "A",
+        "aa": "W",
+        "ss": "T",
+        "acc": 62
+      },
+      {
+        "dssp_index": 144,
+        "resseq": "144",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "S",
+        "acc": 13
+      },
+      {
+        "dssp_index": 145,
+        "resseq": "145",
+        "icode": null,
+        "chain": "A",
+        "aa": "R",
+        "ss": "P",
+        "acc": 45
+      },
+      {
+        "dssp_index": 146,
+        "resseq": "146",
+        "icode": null,
+        "chain": "A",
+        "aa": "T",
+        "ss": "B",
+        "acc": 13
+      },
+      {
+        "dssp_index": 147,
+        "resseq": "147",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 39
+      },
+      {
+        "dssp_index": 148,
+        "resseq": "148",
+        "icode": null,
+        "chain": "A",
+        "aa": "D",
+        "ss": "H",
+        "acc": 85
+      },
+      {
+        "dssp_index": 149,
+        "resseq": "149",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 72
+      },
+      {
+        "dssp_index": 150,
+        "resseq": "150",
+        "icode": null,
+        "chain": "A",
+        "aa": "F",
+        "ss": "H",
+        "acc": 1
+      },
+      {
+        "dssp_index": 151,
+        "resseq": "151",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "H",
+        "acc": 46
+      },
+      {
+        "dssp_index": 152,
+        "resseq": "152",
+        "icode": null,
+        "chain": "A",
+        "aa": "R",
+        "ss": "H",
+        "acc": 158
+      },
+      {
+        "dssp_index": 153,
+        "resseq": "153",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "H",
+        "acc": 13
+      },
+      {
+        "dssp_index": 154,
+        "resseq": "154",
+        "icode": null,
+        "chain": "A",
+        "aa": "I",
+        "ss": "H",
+        "acc": 0
+      },
+      {
+        "dssp_index": 155,
+        "resseq": "155",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "H",
+        "acc": 107
+      },
+      {
+        "dssp_index": 156,
+        "resseq": "156",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "H",
+        "acc": 126
+      },
+      {
+        "dssp_index": 157,
+        "resseq": "157",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 5
+      },
+      {
+        "dssp_index": 158,
+        "resseq": "158",
+        "icode": null,
+        "chain": "A",
+        "aa": "A",
+        "ss": "H",
+        "acc": 0
+      },
+      {
+        "dssp_index": 159,
+        "resseq": "159",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "H",
+        "acc": 177
+      },
+      {
+        "dssp_index": 160,
+        "resseq": "160",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "H",
+        "acc": 131
+      },
+      {
+        "dssp_index": 161,
+        "resseq": "161",
+        "icode": null,
+        "chain": "A",
+        "aa": "H",
+        "ss": "T",
+        "acc": 20
+      },
+      {
+        "dssp_index": 162,
+        "resseq": "162",
+        "icode": null,
+        "chain": "A",
+        "aa": "N",
+        "ss": "T",
+        "acc": 40
+      },
+      {
+        "dssp_index": 163,
+        "resseq": "163",
+        "icode": null,
+        "chain": "A",
+        "aa": "F",
+        "ss": "E",
+        "acc": 7
+      },
+      {
+        "dssp_index": 164,
+        "resseq": "164",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "E",
+        "acc": 105
+      },
+      {
+        "dssp_index": 165,
+        "resseq": "165",
+        "icode": null,
+        "chain": "A",
+        "aa": "I",
+        "ss": "E",
+        "acc": 46
+      },
+      {
+        "dssp_index": 166,
+        "resseq": "166",
+        "icode": null,
+        "chain": "A",
+        "aa": "I",
+        "ss": "E",
+        "acc": 72
+      },
+      {
+        "dssp_index": 167,
+        "resseq": "167",
+        "icode": null,
+        "chain": "A",
+        "aa": "D",
+        "ss": "E",
+        "acc": 39
+      },
+      {
+        "dssp_index": 168,
+        "resseq": "168",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "E",
+        "acc": 55
+      },
+      {
+        "dssp_index": 169,
+        "resseq": "169",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "E",
+        "acc": 43
+      },
+      {
+        "dssp_index": 170,
+        "resseq": "170",
+        "icode": null,
+        "chain": "A",
+        "aa": "V",
+        "ss": "E",
+        "acc": 44
+      },
+      {
+        "dssp_index": 171,
+        "resseq": "171",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "E",
+        "acc": 35
+      },
+      {
+        "dssp_index": 172,
+        "resseq": "172",
+        "icode": null,
+        "chain": "A",
+        "aa": "P",
+        "ss": "E",
+        "acc": 78
+      },
+      {
+        "dssp_index": 173,
+        "resseq": "173",
+        "icode": null,
+        "chain": "A",
+        "aa": "F",
+        "ss": "P",
+        "acc": 13
+      },
+      {
+        "dssp_index": 174,
+        "resseq": "174",
+        "icode": null,
+        "chain": "A",
+        "aa": "T",
+        "ss": "P",
+        "acc": 55
+      },
+      {
+        "dssp_index": 175,
+        "resseq": "175",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 142
+      },
+      {
+        "dssp_index": 176,
+        "resseq": "176",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 86
+      },
+      {
+        "dssp_index": 177,
+        "resseq": "177",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 0
+      },
+      {
+        "dssp_index": 178,
+        "resseq": "178",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "H",
+        "acc": 58
+      },
+      {
+        "dssp_index": 179,
+        "resseq": "179",
+        "icode": null,
+        "chain": "A",
+        "aa": "Q",
+        "ss": "H",
+        "acc": 116
+      },
+      {
+        "dssp_index": 180,
+        "resseq": "180",
+        "icode": null,
+        "chain": "A",
+        "aa": "F",
+        "ss": "H",
+        "acc": 41
+      },
+      {
+        "dssp_index": 181,
+        "resseq": "181",
+        "icode": null,
+        "chain": "A",
+        "aa": "W",
+        "ss": "H",
+        "acc": 1
+      },
+      {
+        "dssp_index": 182,
+        "resseq": "182",
+        "icode": null,
+        "chain": "A",
+        "aa": "A",
+        "ss": "H",
+        "acc": 0
+      },
+      {
+        "dssp_index": 183,
+        "resseq": "183",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 110
+      },
+      {
+        "dssp_index": 184,
+        "resseq": "184",
+        "icode": null,
+        "chain": "A",
+        "aa": "F",
+        "ss": "H",
+        "acc": 9
+      },
+      {
+        "dssp_index": 185,
+        "resseq": "185",
+        "icode": null,
+        "chain": "A",
+        "aa": "F",
+        "ss": "H",
+        "acc": 1
+      },
+      {
+        "dssp_index": 186,
+        "resseq": "186",
+        "icode": null,
+        "chain": "A",
+        "aa": "R",
+        "ss": "H",
+        "acc": 88
+      },
+      {
+        "dssp_index": 187,
+        "resseq": "187",
+        "icode": null,
+        "chain": "A",
+        "aa": "S",
+        "ss": "H",
+        "acc": 46
+      },
+      {
+        "dssp_index": 188,
+        "resseq": "188",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "T",
+        "acc": 44
+      },
+      {
+        "dssp_index": 189,
+        "resseq": "189",
+        "icode": null,
+        "chain": "A",
+        "aa": "G",
+        "ss": "T",
+        "acc": 53
+      },
+      {
+        "dssp_index": 190,
+        "resseq": "190",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "C",
+        "acc": 13
+      },
+      {
+        "dssp_index": 191,
+        "resseq": "191",
+        "icode": null,
+        "chain": "A",
+        "aa": "N",
+        "ss": "H",
+        "acc": 93
+      },
+      {
+        "dssp_index": 192,
+        "resseq": "192",
+        "icode": null,
+        "chain": "A",
+        "aa": "D",
+        "ss": "H",
+        "acc": 84
+      },
+      {
+        "dssp_index": 193,
+        "resseq": "193",
+        "icode": null,
+        "chain": "A",
+        "aa": "V",
+        "ss": "H",
+        "acc": 2
+      },
+      {
+        "dssp_index": 194,
+        "resseq": "194",
+        "icode": null,
+        "chain": "A",
+        "aa": "A",
+        "ss": "H",
+        "acc": 1
+      },
+      {
+        "dssp_index": 195,
+        "resseq": "195",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 76
+      },
+      {
+        "dssp_index": 196,
+        "resseq": "196",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "H",
+        "acc": 0
+      },
+      {
+        "dssp_index": 197,
+        "resseq": "197",
+        "icode": null,
+        "chain": "A",
+        "aa": "I",
+        "ss": "H",
+        "acc": 3
+      },
+      {
+        "dssp_index": 198,
+        "resseq": "198",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "H",
+        "acc": 87
+      },
+      {
+        "dssp_index": 199,
+        "resseq": "199",
+        "icode": null,
+        "chain": "A",
+        "aa": "Q",
+        "ss": "T",
+        "acc": 86
+      },
+      {
+        "dssp_index": 200,
+        "resseq": "200",
+        "icode": null,
+        "chain": "A",
+        "aa": "G",
+        "ss": "T",
+        "acc": 12
+      },
+      {
+        "dssp_index": 201,
+        "resseq": "201",
+        "icode": null,
+        "chain": "A",
+        "aa": "R",
+        "ss": "C",
+        "acc": 72
+      },
+      {
+        "dssp_index": 202,
+        "resseq": "202",
+        "icode": null,
+        "chain": "A",
+        "aa": "V",
+        "ss": "E",
+        "acc": 4
+      },
+      {
+        "dssp_index": 203,
+        "resseq": "203",
+        "icode": null,
+        "chain": "A",
+        "aa": "R",
+        "ss": "E",
+        "acc": 53
+      },
+      {
+        "dssp_index": 204,
+        "resseq": "204",
+        "icode": null,
+        "chain": "A",
+        "aa": "W",
+        "ss": "E",
+        "acc": 0
+      },
+      {
+        "dssp_index": 205,
+        "resseq": "205",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "E",
+        "acc": 0
+      },
+      {
+        "dssp_index": 206,
+        "resseq": "206",
+        "icode": null,
+        "chain": "A",
+        "aa": "Y",
+        "ss": "E",
+        "acc": 0
+      },
+      {
+        "dssp_index": 207,
+        "resseq": "207",
+        "icode": null,
+        "chain": "A",
+        "aa": "V",
+        "ss": "E",
+        "acc": 1
+      },
+      {
+        "dssp_index": 208,
+        "resseq": "208",
+        "icode": null,
+        "chain": "A",
+        "aa": "L",
+        "ss": "E",
+        "acc": 2
+      },
+      {
+        "dssp_index": 209,
+        "resseq": "209",
+        "icode": null,
+        "chain": "A",
+        "aa": "A",
+        "ss": "E",
+        "acc": 0
+      },
+      {
+        "dssp_index": 210,
+        "resseq": "210",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "E",
+        "acc": 79
+      },
+      {
+        "dssp_index": 211,
+        "resseq": "211",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "E",
+        "acc": 7
+      },
+      {
+        "dssp_index": 212,
+        "resseq": "212",
+        "icode": null,
+        "chain": "A",
+        "aa": "K",
+        "ss": "C",
+        "acc": 107
+      },
+      {
+        "dssp_index": 213,
+        "resseq": "213",
+        "icode": null,
+        "chain": "A",
+        "aa": "E",
+        "ss": "C",
+        "acc": 186
+      }
+    ],
+    "summary": {
+      "n_res": 213,
+      "frac_H": 0.43661971830985913,
+      "frac_E": 0.23943661971830985,
+      "frac_C": 0.12206572769953052,
+      "frac_T": 0.10328638497652583,
+      "frac_S": 0.03755868544600939,
+      "frac_G": 0.014084507042253521,
+      "frac_I": 0.023474178403755867,
+      "frac_B": 0.004694835680751174,
+      "frac_helix_any": 0.47417840375586856,
+      "frac_strand": 0.23943661971830985,
+      "helix_to_strand_ratio": 1.9803921568627452,
+      "H_segments_raw": {
+        "n_segments": 9,
+        "mean_len": 10.333333333333334,
+        "max_len": 18
+      },
+      "H_segments_ge_4": {
+        "n_segments": 8,
+        "mean_len": 11.5,
+        "max_len": 18
+      },
+      "E_segments_raw": {
+        "n_segments": 6,
+        "mean_len": 8.5,
+        "max_len": 14
+      },
+      "E_segments_ge_2": {
+        "n_segments": 6,
+        "mean_len": 8.5,
+        "max_len": 14
+      },
+      "helix_segments_any_raw": {
+        "n_segments": 9,
+        "mean_len": 11.222222222222221,
+        "max_len": 18
+      },
+      "helix_segments_any_ge_3": {
+        "n_segments": 9,
+        "mean_len": 11.222222222222221,
+        "max_len": 18
+      },
+      "n_long_H_ge_10": 6,
+      "n_long_H_ge_15": 1,
+      "n_transitions": 52,
+      "acc_mean": 45.63849765258216,
+      "acc_median": 33.0,
+      "frac_exposed_ge_30": 0.5117370892018779
+    }
+  },
+  "raw_output_path": "/gscratch/h2lab/jxlee/text2struct-evals/results/testrun/dssp/3nwb_A/sample_0.dssp",
+  "timestamp": "2026-01-21T21:30:41.179320+00:00",
+  "runtime_seconds": 3.0254920669831336,
+  "tool_version": "mkdssp version 4.5.7",
+  "tool": "mkdssp"
+}

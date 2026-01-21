@@ -1,0 +1,145 @@
+{
+  "structure_id": "3nwb_A_structure_00",
+  "structure_path": "/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_3nwb_A_n_213/sample_0.pdb",
+  "accession": "3nwb_A",
+  "sample_num": 0,
+  "eval_type": "gearnet",
+  "status": "success",
+  "error": null,
+  "predictions": {
+    "bb_model": false,
+    "levels": {
+      "T": {
+        "num_classes": 1336,
+        "topk": [
+          {
+            "rank": 1,
+            "idx": 988,
+            "prob": 0.9916506409645081,
+            "logit": -10.124894142150879,
+            "label": "3.40.1440"
+          },
+          {
+            "rank": 2,
+            "idx": 255,
+            "prob": 0.0076808505691587925,
+            "logit": -14.98553466796875,
+            "label": "1.10.560"
+          },
+          {
+            "rank": 3,
+            "idx": 341,
+            "prob": 0.0002686549269128591,
+            "logit": -18.338592529296875,
+            "label": "1.20.1550"
+          },
+          {
+            "rank": 4,
+            "idx": 0,
+            "prob": 0.0001669017074164003,
+            "logit": -18.81461524963379,
+            "label": "1.10.10"
+          },
+          {
+            "rank": 5,
+            "idx": 367,
+            "prob": 8.787254773778841e-05,
+            "logit": -19.456132888793945,
+            "label": "1.20.272"
+          }
+        ]
+      },
+      "A": {
+        "num_classes": 43,
+        "topk": [
+          {
+            "rank": 1,
+            "idx": 31,
+            "prob": 0.9774739146232605,
+            "logit": 7.8041510581970215,
+            "label": "3.40"
+          },
+          {
+            "rank": 2,
+            "idx": 0,
+            "prob": 0.022518998011946678,
+            "logit": 4.033538818359375,
+            "label": "1.10"
+          },
+          {
+            "rank": 3,
+            "idx": 1,
+            "prob": 4.039490704599302e-06,
+            "logit": -4.592457294464111,
+            "label": "1.20"
+          },
+          {
+            "rank": 4,
+            "idx": 29,
+            "prob": 1.797846039153228e-06,
+            "logit": -5.401986598968506,
+            "label": "3.20"
+          },
+          {
+            "rank": 5,
+            "idx": 2,
+            "prob": 5.486620011652121e-07,
+            "logit": -6.58884859085083,
+            "label": "1.25"
+          }
+        ]
+      },
+      "C": {
+        "num_classes": 5,
+        "topk": [
+          {
+            "rank": 1,
+            "idx": 2,
+            "prob": 0.9181077480316162,
+            "logit": 4.729244709014893,
+            "label": "3"
+          },
+          {
+            "rank": 2,
+            "idx": 0,
+            "prob": 0.08189049363136292,
+            "logit": 2.3123128414154053,
+            "label": "1"
+          },
+          {
+            "rank": 3,
+            "idx": 1,
+            "prob": 1.7784813053367543e-06,
+            "logit": -8.425065994262695,
+            "label": "2"
+          },
+          {
+            "rank": 4,
+            "idx": 4,
+            "prob": 3.2625516871442883e-11,
+            "logit": -19.331241607666016,
+            "label": "6"
+          },
+          {
+            "rank": 5,
+            "idx": 3,
+            "prob": 1.4173857671318651e-13,
+            "logit": -24.77010726928711,
+            "label": "4"
+          }
+        ]
+      }
+    },
+    "embedding_dim": 512,
+    "embedding_norm": 34.97376251220703
+  },
+  "raw_output_path": "/gscratch/h2lab/jxlee/text2struct-evals/results/testrun/gearnet/3nwb_A/sample_0.gearnet.pt",
+  "timestamp": "2026-01-21T22:01:29.243435+00:00",
+  "runtime_seconds": 0.9414062055002432,
+  "tool": "proteina",
+  "tool_component": "NoTrainCAGearNet",
+  "ckpt_path": "/mmfs1/gscratch/h2lab/jxlee/text2struct-evals/eval-gearnet/cache/proteina_additional_files/metric_factory/model_weights/gearnet_ca.pth",
+  "label_mapping_path": "/mmfs1/gscratch/h2lab/jxlee/text2struct-evals/eval-gearnet/cache/proteina_additional_files/pdb_raw/cath_label_mapping.pt",
+  "data_path": "/mmfs1/gscratch/h2lab/jxlee/text2struct-evals/eval-gearnet/cache/proteina_additional_files",
+  "device": "cuda:0"
+}

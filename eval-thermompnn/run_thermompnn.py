@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import os
+import re
 import argparse
 import json
 import logging
@@ -23,6 +25,46 @@ if str(REPO_ROOT) not in sys.path:
 from utils.batch_utils import create_batches
 from utils.io_utils import ensure_dir, iter_structures, load_manifest, output_json_path, write_json_atomic
 from utils.schema import validate_output_json
+
+
+def _write_local_yaml_from_template(
+    template_path: Path,
+    dst_path: Path,
+    *,
+    thermompnn_dir: Path,
+    cache_dir: Path,
+    accel: str = "gpu",
+) -> None:
+    ensure_dir(dst_path.parent)
+    ensure_dir(cache_dir)
+
+    thermo_str = str(thermompnn_dir)
+    cache_str = str(cache_dir)
+
+    if template_path.exists():
+        text = template_path.read_text(encoding="utf-8")
+
+        def repl(key: str, value: str, s: str) -> str:
+            pat = re.compile(rf"^(\s*{re.escape(key)}\s*:\s*)(\"[^\"]*\"|'[^']*'|.*)\s*$", re.M)
+            return pat.sub(rf'\1"{value}"', s) if pat.search(s) else s
+
+        text = repl("accel", accel, text)
+        text = repl("cache_dir", cache_str, text)
+        text = repl("thermompnn_dir", thermo_str, text)
+
+        dst_path.write_text(text, encoding="utf-8")
+        return
+
+    # fallback if template missing
+    dst_path.write_text(
+        f"""platform:
+  accel: "{accel}"
+  cache_dir: "{cache_str}"
+  thermompnn_dir: "{thermo_str}"
+data_loc: {{}}
+""",
+        encoding="utf-8",
+    )
 
 
 @dataclass(frozen=True)
@@ -83,11 +125,30 @@ def run_custom_inference(
 ) -> Tuple[int, str, str]:
     """
     Runs ThermoMPNN analysis/custom_inference.py.
-
-    This ThermoMPNN version does NOT accept --out_dir.
-    We set cwd=work_dir so any files it writes land there.
+    
+    Copies local.yaml to parent of work_dir so the script's ../local.yaml reference works.
     """
     ensure_dir(work_dir)
+    
+    # Copy local.yaml to parent of work_dir since script does ../local.yaml
+    local_yaml_src = thermompnn_dir / "local.yaml"
+    local_yaml_dst = work_dir.parent / "local.yaml"
+
+    # default: repo-local cache
+    default_cache = (REPO_ROOT / "eval-thermompnn" / "cache").resolve()
+
+    # optional override (still nice for scratch)
+    env0 = env or os.environ
+    cache_dir = Path(env0.get("THERMOMPNN_CACHE_DIR", str(default_cache))).expanduser().resolve()
+    accel = env0.get("THERMOMPNN_ACCEL", "gpu").strip() or "gpu"
+
+    _write_local_yaml_from_template(
+        local_yaml_src,
+        local_yaml_dst,
+        thermompnn_dir=thermompnn_dir,
+        cache_dir=cache_dir,
+        accel=accel,
+    )
 
     script = thermompnn_dir / "analysis" / "custom_inference.py"
     if not script.exists():
@@ -103,7 +164,7 @@ def run_custom_inference(
 
     r = subprocess.run(
         cmd,
-        cwd=str(thermompnn_dir / "analysis"),  
+        cwd=str(work_dir),
         check=False,
         capture_output=True,
         text=True,

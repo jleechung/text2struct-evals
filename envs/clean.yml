@@ -1,0 +1,47 @@
+name: text2struct-clean
+channels:
+  # Put these first so pytorch/torchaudio/torchvision come from here (GPU-enabled)
+  - pytorch
+  - nvidia
+
+  # Everything else
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+  - setuptools
+  - wheel
+
+  # --- Core runner deps ---
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - tqdm
+  - joblib
+  - biopython
+  - jsonschema
+  - pyyaml
+  - requests
+
+  # --- Tools for setup scripts ---
+  - git
+  - curl
+  - unzip
+
+  # --- PyTorch GPU stack (force from pytorch/nvidia channels) ---
+  # Use channel-qualified specs so conda-forge cannot “win” with cpu_mkl builds.
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  # CUDA 12.4 is a good default on H200; driver CUDA 13.0 is backwards compatible.
+  - pytorch::pytorch-cuda=12.4
+
+  # Helps avoid missing OpenMP runtime issues (pytorch commonly expects this)
+  - intel-openmp
+
+  - pip:
+      - fair-esm==1.0.2
+      - gdown
+      - einops

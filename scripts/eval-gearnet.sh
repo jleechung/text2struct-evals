@@ -2,15 +2,16 @@
 set -euo pipefail
 
 # Configuration
-ENV_NAME="text2struct-thermompnn"
+ENV_NAME="text2struct-gearnet"
 RUN_NAME="testrun"
 MANIFEST="test_data/manifest.csv"
 BATCH_SIZE=8
 OVERWRITE=true  # true|false
 
-# ThermoMPNN knobs (not setup-determined)
-CHAIN=""   # e.g. "A" or leave "" to infer
-TOP_K=10
+# GearNet knobs (not setup-determined)
+NUM_WORKERS=8
+TOP_K=5
+BB_MODEL=false  # true|false (backbone model vs CA-only)
 
 # Execution
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -30,23 +31,23 @@ if [[ -f "$REPO_ROOT/$MANIFEST" ]]; then
   MANIFEST="$REPO_ROOT/$MANIFEST"
 fi
 
-# setup-thermompnn.sh installs here
-THERMOMPNN_DIR="$REPO_ROOT/eval-thermompnn/vendor/ThermoMPNN"
+# setup-gearnet.sh installs Proteina additional files here
+export DATA_PATH="$REPO_ROOT/eval-gearnet/cache/proteina_additional_files"
 
 extra=()
 if [[ "$OVERWRITE" == "true" ]]; then
   extra+=(--overwrite)
 fi
-if [[ -n "$CHAIN" ]]; then
-  extra+=(--chain "$CHAIN")
+if [[ "$BB_MODEL" == "true" ]]; then
+  extra+=(--bb_model)
 fi
 
-python eval-thermompnn/run_thermompnn.py \
+python eval-gearnet/run_gearnet.py \
   --manifest "$MANIFEST" \
   --run_name "$RUN_NAME" \
   --output_root "$REPO_ROOT/results" \
   --log_root "$REPO_ROOT/logs" \
   --batch_size "$BATCH_SIZE" \
-  --thermompnn_dir "$THERMOMPNN_DIR" \
+  --num_workers "$NUM_WORKERS" \
   --top_k "$TOP_K" \
   "${extra[@]}"

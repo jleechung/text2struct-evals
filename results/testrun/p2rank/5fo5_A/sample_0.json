@@ -1,0 +1,502 @@
+{
+  "structure_id": "5fo5_A_structure_00",
+  "structure_path": "/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_5fo5_A_n_88/sample_0.pdb",
+  "accession": "5fo5_A",
+  "sample_num": 0,
+  "eval_type": "p2rank",
+  "status": "success",
+  "error": null,
+  "predictions": {
+    "summary": {
+      "num_pockets": 0,
+      "top_score": null,
+      "top_probability": null,
+      "top_k": 5,
+      "top_res_k": 50
+    },
+    "pockets_columns": [
+      "name",
+      "rank",
+      "score",
+      "probability",
+      "sas_points",
+      "surf_atoms",
+      "center_x",
+      "center_y",
+      "center_z",
+      "residue_ids",
+      "surf_atom_ids"
+    ],
+    "residues_columns": [
+      "chain",
+      "residue_label",
+      "residue_name",
+      "score",
+      "zscore",
+      "probability",
+      "pocket"
+    ],
+    "pockets_topk": [],
+    "residues_topk": [
+      {
+        "chain": "A",
+        "residue_label": 57,
+        "residue_name": " TYR",
+        "score": 0.902,
+        "zscore": 0.0684,
+        "probability": 0.0883,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 82,
+        "residue_name": " VAL",
+        "score": 0.7804,
+        "zscore": 0.0059,
+        "probability": 0.0662,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 38,
+        "residue_name": " ARG",
+        "score": 0.7728,
+        "zscore": 0.0021,
+        "probability": 0.0649,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 61,
+        "residue_name": " GLN",
+        "score": 0.7615,
+        "zscore": -0.0037,
+        "probability": 0.0631,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 37,
+        "residue_name": " GLY",
+        "score": 0.6373,
+        "zscore": -0.0675,
+        "probability": 0.0444,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 81,
+        "residue_name": " THR",
+        "score": 0.5804,
+        "zscore": -0.0967,
+        "probability": 0.0369,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 36,
+        "residue_name": " SER",
+        "score": 0.5807,
+        "zscore": -0.0965,
+        "probability": 0.0369,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 10,
+        "residue_name": " ARG",
+        "score": 0.5033,
+        "zscore": -0.1362,
+        "probability": 0.0277,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 84,
+        "residue_name": " TYR",
+        "score": 0.4553,
+        "zscore": -0.1608,
+        "probability": 0.0229,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 83,
+        "residue_name": " TYR",
+        "score": 0.3666,
+        "zscore": -0.2063,
+        "probability": 0.0151,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 11,
+        "residue_name": " ILE",
+        "score": 0.3502,
+        "zscore": -0.2148,
+        "probability": 0.0138,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 17,
+        "residue_name": " LEU",
+        "score": 0.3356,
+        "zscore": -0.2223,
+        "probability": 0.0128,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 39,
+        "residue_name": " GLN",
+        "score": 0.3357,
+        "zscore": -0.2222,
+        "probability": 0.0128,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 59,
+        "residue_name": " GLN",
+        "score": 0.3323,
+        "zscore": -0.224,
+        "probability": 0.0125,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 7,
+        "residue_name": " LEU",
+        "score": 0.3283,
+        "zscore": -0.226,
+        "probability": 0.0123,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 21,
+        "residue_name": " HIS",
+        "score": 0.309,
+        "zscore": -0.2359,
+        "probability": 0.011,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 62,
+        "residue_name": " ASN",
+        "score": 0.3034,
+        "zscore": -0.2388,
+        "probability": 0.0106,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 66,
+        "residue_name": " LEU",
+        "score": 0.2751,
+        "zscore": -0.2533,
+        "probability": 0.0089,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 8,
+        "residue_name": " ARG",
+        "score": 0.2558,
+        "zscore": -0.2632,
+        "probability": 0.0078,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 70,
+        "residue_name": " GLN",
+        "score": 0.2515,
+        "zscore": -0.2654,
+        "probability": 0.0076,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 75,
+        "residue_name": " ARG",
+        "score": 0.2469,
+        "zscore": -0.2678,
+        "probability": 0.0073,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 80,
+        "residue_name": " ARG",
+        "score": 0.231,
+        "zscore": -0.2759,
+        "probability": 0.0065,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 14,
+        "residue_name": " ASN",
+        "score": 0.2299,
+        "zscore": -0.2765,
+        "probability": 0.0065,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 65,
+        "residue_name": " ARG",
+        "score": 0.2285,
+        "zscore": -0.2772,
+        "probability": 0.0064,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 64,
+        "residue_name": " LEU",
+        "score": 0.1552,
+        "zscore": -0.3148,
+        "probability": 0.0033,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 41,
+        "residue_name": " LEU",
+        "score": 0.1559,
+        "zscore": -0.3145,
+        "probability": 0.0033,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 12,
+        "residue_name": " ALA",
+        "score": 0.1496,
+        "zscore": -0.3177,
+        "probability": 0.0031,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 76,
+        "residue_name": " ARG",
+        "score": 0.1452,
+        "zscore": -0.32,
+        "probability": 0.003,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 25,
+        "residue_name": " LEU",
+        "score": 0.1465,
+        "zscore": -0.3193,
+        "probability": 0.003,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 18,
+        "residue_name": " ARG",
+        "score": 0.1472,
+        "zscore": -0.3189,
+        "probability": 0.003,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 67,
+        "residue_name": " LEU",
+        "score": 0.1421,
+        "zscore": -0.3215,
+        "probability": 0.0029,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 54,
+        "residue_name": " ARG",
+        "score": 0.1387,
+        "zscore": -0.3233,
+        "probability": 0.0028,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 22,
+        "residue_name": " GLN",
+        "score": 0.1162,
+        "zscore": -0.3348,
+        "probability": 0.0021,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 68,
+        "residue_name": " GLU",
+        "score": 0.1115,
+        "zscore": -0.3372,
+        "probability": 0.002,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 72,
+        "residue_name": " GLU",
+        "score": 0.1096,
+        "zscore": -0.3382,
+        "probability": 0.0019,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 58,
+        "residue_name": " SER",
+        "score": 0.1045,
+        "zscore": -0.3408,
+        "probability": 0.0018,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 77,
+        "residue_name": " ARG",
+        "score": 0.1073,
+        "zscore": -0.3394,
+        "probability": 0.0018,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 56,
+        "residue_name": " THR",
+        "score": 0.1039,
+        "zscore": -0.3411,
+        "probability": 0.0018,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 3,
+        "residue_name": " ARG",
+        "score": 0.0994,
+        "zscore": -0.3435,
+        "probability": 0.0016,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 6,
+        "residue_name": " GLN",
+        "score": 0.0987,
+        "zscore": -0.3438,
+        "probability": 0.0016,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 63,
+        "residue_name": " ILE",
+        "score": 0.095,
+        "zscore": -0.3457,
+        "probability": 0.0015,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 33,
+        "residue_name": " GLU",
+        "score": 0.0887,
+        "zscore": -0.349,
+        "probability": 0.0014,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 78,
+        "residue_name": " GLU",
+        "score": 0.0746,
+        "zscore": -0.3562,
+        "probability": 0.0011,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 55,
+        "residue_name": " VAL",
+        "score": 0.067,
+        "zscore": -0.3601,
+        "probability": 0.001,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 34,
+        "residue_name": " PRO",
+        "score": 0.0666,
+        "zscore": -0.3603,
+        "probability": 0.001,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 16,
+        "residue_name": " VAL",
+        "score": 0.0654,
+        "zscore": -0.3609,
+        "probability": 0.0009,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 43,
+        "residue_name": " ARG",
+        "score": 0.0569,
+        "zscore": -0.3653,
+        "probability": 0.0008,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 45,
+        "residue_name": " ASN",
+        "score": 0.0547,
+        "zscore": -0.3664,
+        "probability": 0.0008,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 85,
+        "residue_name": " ARG",
+        "score": 0.0491,
+        "zscore": -0.3693,
+        "probability": 0.0007,
+        "pocket": 0
+      },
+      {
+        "chain": "A",
+        "residue_label": 53,
+        "residue_name": " GLU",
+        "score": 0.0474,
+        "zscore": -0.3701,
+        "probability": 0.0007,
+        "pocket": 0
+      }
+    ]
+  },
+  "raw_output_path": "/gscratch/h2lab/jxlee/text2struct-evals/results/testrun/p2rank/5fo5_A/sample_0.p2rank_predictions.csv",
+  "timestamp": "2026-01-21T21:31:42.404188+00:00",
+  "runtime_seconds": 9.524470019969158,
+  "tool": "/gscratch/h2lab/jxlee/text2struct-evals/eval-p2rank/vendor/p2rank/prank",
+  "tool_version": "P2Rank 2.5.1\n\nHome: /mmfs1/gscratch/h2lab/jxlee/text2struct-evals/eval-p2rank/vendor/p2rank_2.5.1\nJVM: OpenJDK 64-Bit Server VM 17.0.17-internal+0-adhoc..src Oracle Corporation\nOS: Linux (Version: 4.18.0-513.18.1.el8_9.x86_64, Arch: amd64)\nCPUs: 32\nMax Memory: 2 GiB",
+  "raw_output_paths": {
+    "predictions_csv": "/gscratch/h2lab/jxlee/text2struct-evals/results/testrun/p2rank/5fo5_A/sample_0.p2rank_predictions.csv",
+    "residues_csv": "/gscratch/h2lab/jxlee/text2struct-evals/results/testrun/p2rank/5fo5_A/sample_0.p2rank_residues.csv"
+  }
+}

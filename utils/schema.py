@@ -27,7 +27,7 @@ OUTPUT_SCHEMA = {
         "sample_num": {"type": "integer"},
         "eval_type": {
             "type": "string",
-            "enum": ["dssp", "proteina", "p2rank", "clean", "thermompnn"],
+            "enum": ["dssp", "gearnet", "p2rank", "clean", "thermompnn"],
         },
         "status": {"type": "string", "enum": ["success", "failed"]},
         "error": {"type": ["string", "null"]},

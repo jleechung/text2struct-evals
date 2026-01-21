@@ -1,0 +1,166 @@
+{
+  "structure_id": "3nwb_A_structure_00",
+  "structure_path": "/gscratch/h2lab/jxlee/text2struct-evals/test_data/job_0_protein_3nwb_A_n_213/sample_0.pdb",
+  "accession": "3nwb_A",
+  "sample_num": 0,
+  "eval_type": "thermompnn",
+  "status": "success",
+  "error": null,
+  "predictions": {
+    "summary": {
+      "csv_path": "/gscratch/h2lab/jxlee/text2struct-evals/results/testrun/thermompnn/3nwb_A/sample_0.thermompnn/ThermoMPNN_inference_sample_0.csv",
+      "num_rows": 4260,
+      "ddg_column": "ddG_pred",
+      "mutation_column": "mutation",
+      "ddg_mean": 1.01555019471567,
+      "ddg_median": 0.8141979277133942,
+      "ddg_min": -2.1331582069396973,
+      "ddg_max": 3.851714372634888,
+      "num_stabilizing_ddg_lt_0": 288,
+      "num_destabilizing_ddg_gt_0": 3759,
+      "top_stabilizing": [
+        {
+          "mutation": "L",
+          "ddG_pred": -2.1331582069396973,
+          "Unnamed: 0": 4169,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "M",
+          "ddG_pred": -1.7661292552947998,
+          "Unnamed: 0": 4170,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "I",
+          "ddG_pred": -1.760960817337036,
+          "Unnamed: 0": 4167,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "W",
+          "ddG_pred": -1.4940321445465088,
+          "Unnamed: 0": 2898,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "F",
+          "ddG_pred": -1.4659802913665771,
+          "Unnamed: 0": 4164,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "Y",
+          "ddG_pred": -1.4168357849121094,
+          "Unnamed: 0": 3339,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "H",
+          "ddG_pred": -1.192408561706543,
+          "Unnamed: 0": 3326,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "Y",
+          "ddG_pred": -1.18426513671875,
+          "Unnamed: 0": 2899,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "C",
+          "ddG_pred": -1.1752433776855469,
+          "Unnamed: 0": 4161,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "V",
+          "ddG_pred": -1.0903360843658447,
+          "Unnamed: 0": 4177,
+          "Model": "ThermoMPNN"
+        }
+      ],
+      "top_destabilizing": [
+        {
+          "mutation": "P",
+          "ddG_pred": 3.851714372634888,
+          "Unnamed: 0": 2332,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "D",
+          "ddG_pred": 3.837186574935913,
+          "Unnamed: 0": 1042,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "P",
+          "ddG_pred": 3.735973834991455,
+          "Unnamed: 0": 3592,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "D",
+          "ddG_pred": 3.7105870246887207,
+          "Unnamed: 0": 2322,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "D",
+          "ddG_pred": 3.5937042236328125,
+          "Unnamed: 0": 2542,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "P",
+          "ddG_pred": 3.5298993587493896,
+          "Unnamed: 0": 1052,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "P",
+          "ddG_pred": 3.525863647460937,
+          "Unnamed: 0": 4012,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "P",
+          "ddG_pred": 3.488423109054565,
+          "Unnamed: 0": 172,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "E",
+          "ddG_pred": 3.4527688026428223,
+          "Unnamed: 0": 1043,
+          "Model": "ThermoMPNN"
+        },
+        {
+          "mutation": "R",
+          "ddG_pred": 3.452500581741333,
+          "Unnamed: 0": 794,
+          "Model": "ThermoMPNN"
+        }
+      ],
+      "columns": [
+        "Unnamed: 0",
+        "Model",
+        "Dataset",
+        "ddG_pred",
+        "position",
+        "wildtype",
+        "mutation",
+        "pdb",
+        "chain"
+      ]
+    },
+    "raw_files": [
+      "/gscratch/h2lab/jxlee/text2struct-evals/results/testrun/thermompnn/3nwb_A/sample_0.thermompnn/ThermoMPNN_inference_sample_0.csv"
+    ]
+  },
+  "raw_output_path": "/gscratch/h2lab/jxlee/text2struct-evals/results/testrun/thermompnn/3nwb_A/sample_0.thermompnn",
+  "timestamp": "2026-01-21T21:56:59.201971+00:00",
+  "runtime_seconds": 15.16430872795172,
+  "tool": "/mmfs1/gscratch/h2lab/jxlee/text2struct-evals/eval-thermompnn/vendor/ThermoMPNN/analysis/custom_inference.py",
+  "model_path": "/mmfs1/gscratch/h2lab/jxlee/text2struct-evals/eval-thermompnn/vendor/ThermoMPNN/models/thermoMPNN_default.pt"
+}
